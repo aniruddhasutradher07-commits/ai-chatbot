@@ -1,5 +1,7 @@
 # AI-Powered Chatbot
 
+🔗 **Live Demo:** [https://ai-chatbot-4fcm.onrender.com](https://ai-chatbot-4fcm.onrender.com)
+
 An intelligent chatbot built for customer support and FAQ handling, using NLP for understanding user queries beyond simple keyword matching.
 
 ## Features
