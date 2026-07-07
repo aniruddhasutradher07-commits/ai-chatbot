@@ -111,6 +111,7 @@ def get_logs():
 def home():
     return render_template("index.html")
 
+init_db()
+
 if __name__ == "__main__":
-    init_db()
     app.run(debug=True)
