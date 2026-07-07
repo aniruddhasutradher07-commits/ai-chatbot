@@ -3,8 +3,16 @@ import time
 import sqlite3
 from datetime import datetime
 import nltk
+import ssl
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 
 nltk.download('punkt_tab')
 nltk.download('stopwords')
